@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{594AFD8B-810A-49BF-8B11-3F685420F30E}|CapaLogica\\CapaLogica.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\parcial1_prograii\\capalogica\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{594AFD8B-810A-49BF-8B11-3F685420F30E}|CapaLogica\\CapaLogica.csproj|solutionrelative:capalogica\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90B95547-56C7-4DC6-A6C6-7794DA073A96}|Parcial1_PrograII\\CapaVista.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\parcial1_prograii\\parcial1_prograii\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{90B95547-56C7-4DC6-A6C6-7794DA073A96}|Parcial1_PrograII\\CapaVista.csproj|solutionrelative:parcial1_prograii\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FB305466-3E8A-4191-9E18-E885A8C981CA}|CapaEntidades\\CapaEntidades.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\capaentidades\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FB305466-3E8A-4191-9E18-E885A8C981CA}|CapaEntidades\\CapaEntidades.csproj|solutionrelative:capaentidades\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{12B0E2B6-DA75-44AA-883F-FD209905338C}|CapaDatos\\CapaDatos.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\capadatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{12B0E2B6-DA75-44AA-883F-FD209905338C}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{90B95547-56C7-4DC6-A6C6-7794DA073A96}|Parcial1_PrograII\\CapaVista.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\parcial1_prograii\\parcial1_prograii\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{90B95547-56C7-4DC6-A6C6-7794DA073A96}|Parcial1_PrograII\\CapaVista.csproj|solutionrelative:parcial1_prograii\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{90B95547-56C7-4DC6-A6C6-7794DA073A96}|Parcial1_PrograII\\Parcial1_PrograII.csproj|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\parcial1_prograii\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{90B95547-56C7-4DC6-A6C6-7794DA073A96}|Parcial1_PrograII\\Parcial1_PrograII.csproj|solutionrelative:parcial1_prograii\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{90B95547-56C7-4DC6-A6C6-7794DA073A96}|Parcial1_PrograII\\CapaVista.csproj|c:\\users\\jerem\\desktop\\universidad\\ciclo iv\\progra ii\\parcial1_prograii\\parcial1_prograii\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{90B95547-56C7-4DC6-A6C6-7794DA073A96}|Parcial1_PrograII\\CapaVista.csproj|solutionrelative:parcial1_prograii\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\CapaLogica\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CapaLogica\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\CapaEntidades\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CapaEntidades\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\CapaDatos\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CapaDatos\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -47,19 +59,55 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\CapaLogica\\Class1.cs",
-              "RelativeDocumentMoniker": "CapaLogica\\Class1.cs",
-              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\CapaLogica\\Class1.cs",
-              "RelativeToolTip": "CapaLogica\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\Parcial1_PrograII\\Form1.cs",
+              "RelativeDocumentMoniker": "Parcial1_PrograII\\Form1.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\Parcial1_PrograII\\Form1.cs",
+              "RelativeToolTip": "Parcial1_PrograII\\Form1.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA8wCgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-30T23:38:49.965Z",
+              "WhenOpened": "2024-08-31T00:15:48.354Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\Parcial1_PrograII\\Form1.cs",
+              "RelativeDocumentMoniker": "Parcial1_PrograII\\Form1.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\Parcial1_PrograII\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Parcial1_PrograII\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T00:13:16.866Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\Parcial1_PrograII\\App.config",
+              "RelativeDocumentMoniker": "Parcial1_PrograII\\App.config",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\Parcial1_PrograII\\App.config",
+              "RelativeToolTip": "Parcial1_PrograII\\App.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-08-31T00:10:03.328Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\CapaLogica\\Class1.cs",
+              "RelativeDocumentMoniker": "CapaLogica\\Class1.cs",
+              "ToolTip": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\CapaLogica\\Class1.cs",
+              "RelativeToolTip": "CapaLogica\\Class1.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-30T23:38:49.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\CapaEntidades\\Class1.cs",
               "RelativeDocumentMoniker": "CapaEntidades\\Class1.cs",
@@ -71,7 +119,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\CapaDatos\\Class1.cs",
               "RelativeDocumentMoniker": "CapaDatos\\Class1.cs",
@@ -83,7 +131,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Users\\jerem\\Desktop\\Universidad\\Ciclo IV\\Progra II\\Parcial1_PrograII\\Parcial1_PrograII\\Form1.cs",
               "RelativeDocumentMoniker": "Parcial1_PrograII\\Form1.cs",

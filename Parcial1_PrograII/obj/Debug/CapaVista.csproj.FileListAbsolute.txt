@@ -1,0 +1,10 @@
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\bin\Debug\Parcial1_PrograII.exe.config
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\bin\Debug\Parcial1_PrograII.exe
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\bin\Debug\Parcial1_PrograII.pdb
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\obj\Debug\CapaVista.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\obj\Debug\Parcial1_PrograII.Form1.resources
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\obj\Debug\Parcial1_PrograII.Properties.Resources.resources
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\obj\Debug\CapaVista.csproj.GenerateResource.cache
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\obj\Debug\CapaVista.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\obj\Debug\Parcial1_PrograII.exe
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\Parcial1_PrograII\obj\Debug\Parcial1_PrograII.pdb
