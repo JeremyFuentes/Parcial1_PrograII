@@ -1,0 +1,6 @@
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\CapaEntidades\bin\Debug\CapaEntidades.dll
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\CapaEntidades\bin\Debug\CapaEntidades.pdb
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\CapaEntidades\obj\Debug\CapaEntidades.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\CapaEntidades\obj\Debug\CapaEntidades.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\CapaEntidades\obj\Debug\CapaEntidades.dll
+C:\Users\jerem\Desktop\Universidad\Ciclo IV\Progra II\Parcial1_PrograII\CapaEntidades\obj\Debug\CapaEntidades.pdb
