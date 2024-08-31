@@ -107,5 +107,37 @@ namespace Parcial1_PrograII
                 CargarProductos();
             }
         }
+
+        private void textFiltroNombre_TextChanged(object sender, EventArgs e)
+        {
+            FiltroPorNombre();
+        }
+
+        private void FiltroPorNombre()
+        {
+            txtFabricante.Text = "";
+            txtCategoria.Text = "";
+            _productoRepository = new ProductoRepository();
+            string nombre = textFiltroNombre.Text;
+            productosDataGrid.DataSource = _productoRepository.FiltroNombre(nombre);
+        }
+
+        private void txtCategoria_TextChanged(object sender, EventArgs e)
+        {
+            textFiltroNombre.Text = "";
+            txtFabricante.Text = "";
+            _productoRepository = new ProductoRepository();
+            string nombre = txtCategoria.Text;
+            productosDataGrid.DataSource = _productoRepository.FiltroCategoria(nombre);
+        }
+
+        private void txtFabricante_TextChanged(object sender, EventArgs e)
+        {
+            textFiltroNombre.Text = "";
+            txtCategoria.Text = "";
+            _productoRepository = new ProductoRepository();
+            string nombre = txtFabricante.Text;
+            productosDataGrid.DataSource = _productoRepository.FiltroFabricante(nombre);
+        }
     }
 }

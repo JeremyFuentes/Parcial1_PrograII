@@ -179,5 +179,143 @@ namespace CapaDatos
                 }
             }
         }
+
+        public List<Productos> FiltroNombre(string nombre)
+        {
+            // Verificar que el nombre no sea nulo o vacío
+            if (string.IsNullOrEmpty(nombre))
+            {
+                ObtenerTodos();
+            }
+
+            using (var conexion = DBConectar.GetSqlConnection())
+            {
+                // Consulta SQL simplificada para buscar solo por nombre
+                string queryBusqueda = "SELECT IdProducto, Nombre, Descripcion, Precio, Cantidad, Fabricante, Categoria " +
+                                       "FROM [dbo].[Productos] " +
+                                       "WHERE Nombre LIKE @Nombre";
+
+                using (SqlCommand comando = new SqlCommand(queryBusqueda, conexion))
+                {
+                    comando.Parameters.AddWithValue("@Nombre", "%" + nombre + "%");
+
+                    using (SqlDataReader reader = comando.ExecuteReader())
+                    {
+                        List<Productos> productosEncontrados = new List<Productos>();
+
+                        while (reader.Read())
+                        {
+                            Productos producto = new Productos
+                            {
+                                IdProducto = reader.GetInt32(0),
+                                Nombre = reader.GetString(1),
+                                Descripcion = reader.GetString(2),
+                                Precio = reader.GetDecimal(3),
+                                Cantidad = reader.GetInt32(4),
+                                Fabricante = reader.GetString(5),
+                                Categoria = reader.GetString(6)
+                            };
+
+                            productosEncontrados.Add(producto);
+                        }
+
+                        return productosEncontrados;
+                    }
+                }
+            }
+        }
+
+        public List<Productos> FiltroCategoria(string nombre)
+        {
+            
+
+            // Verificar que el nombre no sea nulo o vacío
+            if (string.IsNullOrEmpty(nombre))
+            {
+                ObtenerTodos();
+            }
+
+            using (var conexion = DBConectar.GetSqlConnection())
+            {
+                // Consulta SQL simplificada para buscar solo por nombre
+                string queryBusqueda = "SELECT IdProducto, Nombre, Descripcion, Precio, Cantidad, Fabricante, Categoria " +
+                                       "FROM [dbo].[Productos] " +
+                                       "WHERE Categoria LIKE @Categoria";
+
+                using (SqlCommand comando = new SqlCommand(queryBusqueda, conexion))
+                {
+                    comando.Parameters.AddWithValue("@Categoria", "%" + nombre + "%");
+
+                    using (SqlDataReader reader = comando.ExecuteReader())
+                    {
+                        List<Productos> productosEncontrados = new List<Productos>();
+
+                        while (reader.Read())
+                        {
+                            Productos producto = new Productos
+                            {
+                                IdProducto = reader.GetInt32(0),
+                                Nombre = reader.GetString(1),
+                                Descripcion = reader.GetString(2),
+                                Precio = reader.GetDecimal(3),
+                                Cantidad = reader.GetInt32(4),
+                                Fabricante = reader.GetString(5),
+                                Categoria = reader.GetString(6)
+                            };
+
+                            productosEncontrados.Add(producto);
+                        }
+
+                        return productosEncontrados;
+                    }
+                }
+            }
+        }
+        public List<Productos> FiltroFabricante(string nombre)
+        {
+
+
+            // Verificar que el nombre no sea nulo o vacío
+            if (string.IsNullOrEmpty(nombre))
+            {
+                ObtenerTodos();
+            }
+
+            using (var conexion = DBConectar.GetSqlConnection())
+            {
+                // Consulta SQL simplificada para buscar solo por nombre
+                string queryBusqueda = "SELECT IdProducto, Nombre, Descripcion, Precio, Cantidad, Fabricante, Categoria " +
+                                       "FROM [dbo].[Productos] " +
+                                       "WHERE Fabricante LIKE @Fabricante";
+
+                using (SqlCommand comando = new SqlCommand(queryBusqueda, conexion))
+                {
+                    comando.Parameters.AddWithValue("@Fabricante", "%" + nombre + "%");
+
+                    using (SqlDataReader reader = comando.ExecuteReader())
+                    {
+                        List<Productos> productosEncontrados = new List<Productos>();
+
+                        while (reader.Read())
+                        {
+                            Productos producto = new Productos
+                            {
+                                IdProducto = reader.GetInt32(0),
+                                Nombre = reader.GetString(1),
+                                Descripcion = reader.GetString(2),
+                                Precio = reader.GetDecimal(3),
+                                Cantidad = reader.GetInt32(4),
+                                Fabricante = reader.GetString(5),
+                                Categoria = reader.GetString(6)
+                            };
+
+                            productosEncontrados.Add(producto);
+                        }
+
+                        return productosEncontrados;
+                    }
+                }
+            }
+        }
     }
 }

@@ -45,5 +45,25 @@ namespace CapaLogica
 
             return _productoDAL.GuardarProducto(producto);
         }
+
+        public List<Productos> FiltroNombre(string nombre)
+        {
+            _productoDAL = new ProductosDAL();
+
+            return _productoDAL.FiltroNombre(nombre);
+        }
+
+        public List<Productos> FiltroCategoria(string nombre)
+        {
+            _productoDAL = new ProductosDAL();
+
+            return _productoDAL.FiltroCategoria(nombre);
+        }
+        public List<Productos> FiltroFabricante(string nombre)
+        {
+            _productoDAL = new ProductosDAL();
+
+            return _productoDAL.FiltroFabricante(nombre);
+        }
     }
 }
