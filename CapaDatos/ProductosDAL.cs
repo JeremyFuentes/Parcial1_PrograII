@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CapaLogica
+namespace CapaDatos
 {
-    public class Class1
+    internal class ProductosDAL
     {
+
     }
 }
