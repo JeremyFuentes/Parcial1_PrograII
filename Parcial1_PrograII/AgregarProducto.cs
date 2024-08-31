@@ -78,6 +78,7 @@ namespace Parcial1_PrograII
                 MessageBox.Show("Se requiere el nombre del producto. ¡Este campo es obligatorio!", "Tienda | Registro Producto",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtNombre.Focus();
+                txtNombre.BackColor = Color.LightYellow;
                 camposValidos = false;
                 return camposValidos;
             }
@@ -88,6 +89,7 @@ namespace Parcial1_PrograII
                 MessageBox.Show("Se requiere la descripción del producto. ¡Este campo es obligatorio!", "Tienda | Registro Producto",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtDescripcion.Focus();
+                txtDescripcion.BackColor = Color.LightYellow;
                 camposValidos = false;
                 return camposValidos;
             }
@@ -98,6 +100,7 @@ namespace Parcial1_PrograII
                 MessageBox.Show("Se requiere un precio válido para el producto. ¡Este campo es obligatorio!", "Tienda | Registro Producto",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtPrecio.Focus();
+                txtPrecio.BackColor = Color.LightYellow;
                 camposValidos = false;
                 return camposValidos;
             }
@@ -108,6 +111,7 @@ namespace Parcial1_PrograII
                 MessageBox.Show("Se requiere una cantidad válida de stock para el producto. ¡Este campo es obligatorio!", "Tienda | Registro Producto",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtCantidad.Focus();
+                txtCantidad.BackColor = Color.LightYellow;
                 camposValidos = false;
                 return camposValidos;
             }
@@ -118,6 +122,7 @@ namespace Parcial1_PrograII
                 MessageBox.Show("Se requiere la marca del producto. ¡Este campo es obligatorio!", "Tienda | Registro Producto",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtFabricante.Focus();
+                txtFabricante.BackColor = Color.LightYellow;
                 camposValidos = false;
                 return camposValidos;   
             }
@@ -128,6 +133,7 @@ namespace Parcial1_PrograII
                 MessageBox.Show("Se requiere la categoría del producto. ¡Este campo es obligatorio!", "Tienda | Registro Producto",
                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtCategoria.Focus();
+                txtCategoria.BackColor = Color.LightYellow;
                 camposValidos = false;
                 return camposValidos;
             }

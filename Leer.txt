@@ -1,0 +1,38 @@
+Aca esta el codigo de la base de datos para poder utilizar el programa
+
+
+CREATE DATABASE Parcial1_PrograII;
+GO
+
+-- Usar la base de datos recién creada
+USE Parcial1_PrograII;
+GO
+
+-- Crear la tabla Fabricante
+
+-- Crear la tabla Productos
+CREATE TABLE Productos (
+    IdProducto INT IDENTITY(1,1) PRIMARY KEY,  
+    Nombre NVARCHAR(100) NOT NULL,            
+    Descripcion NVARCHAR(255),           
+    Precio DECIMAL(18, 2) NOT NULL,          
+    Cantidad INT NOT NULL,                    
+    Categoria NVARCHAR(50) NOT NULL,                
+    Fabricante NVARCHAR(50) NOT NULL,             
+);
+GO
+
+
+INSERT INTO Productos (Nombre, Descripcion, Precio, Cantidad, Categoria, Fabricante)
+VALUES 
+('Procesador Intel Core i9', 'Procesador de última generación Intel Core i9', 549.99, 10, 'Procesadores y Componentes Principales', 'Intel'),
+('Memoria RAM Kingston 16GB', 'Memoria RAM DDR4 Kingston 16GB 3200MHz', 79.99, 50, 'Procesadores y Componentes Principales', 'Kingston'),
+('Disco Duro Samsung 1TB', 'Disco duro SSD Samsung EVO 1TB', 129.99, 30, 'Almacenamiento y Energía', 'Samsung'),
+('Teclado Mecánico RGB', 'Teclado mecánico con retroiluminación RGB', 99.99, 20, 'Periféricos y Accesorios', 'Logitech'),
+('Mouse Gaming', 'Mouse óptico para gaming con 6 botones', 59.99, 40, 'Periféricos y Accesorios', 'Razer'),
+('Fuente de Poder 750W', 'Fuente de poder modular de 750W', 89.99, 15, 'Almacenamiento y Energía', 'Corsair'),
+('Monitor 27 pulgadas 4K', 'Monitor 4K UHD de 27 pulgadas', 399.99, 25, 'Periféricos y Accesorios', 'LG'),
+('Placa Madre ATX', 'Placa madre con chipset Z490 para Intel', 249.99, 12, 'Procesadores y Componentes Principales', 'ASUS'),
+('Disco Duro Externo 2TB', 'Disco duro externo USB 3.0 2TB', 109.99, 40, 'Almacenamiento y Energía', 'Western Digital'),
+('Cámara Web HD', 'Cámara web HD 1080p con micrófono incorporado', 69.99, 35, 'Periféricos y Accesorios', 'Logitech');
+GO

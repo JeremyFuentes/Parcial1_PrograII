@@ -74,6 +74,8 @@ namespace Parcial1_PrograII
             CargarProductos();
         }
 
+
+        // Permite editar o eliminar productos mediante los iconos en el datagridview
         private void productosDataGridView_CellClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -115,6 +117,7 @@ namespace Parcial1_PrograII
 
         private void FiltroPorNombre()
         {
+            // Limpia los datos de los otros filtros antes de aplicar la nueva busqueda
             txtFabricante.Text = "";
             txtCategoria.Text = "";
             _productoRepository = new ProductoRepository();
@@ -124,6 +127,7 @@ namespace Parcial1_PrograII
 
         private void txtCategoria_TextChanged(object sender, EventArgs e)
         {
+            // Limpia los datos de los otros filtros antes de aplicar la nueva busqueda
             textFiltroNombre.Text = "";
             txtFabricante.Text = "";
             _productoRepository = new ProductoRepository();
@@ -133,6 +137,7 @@ namespace Parcial1_PrograII
 
         private void txtFabricante_TextChanged(object sender, EventArgs e)
         {
+            // Limpia los datos de los otros filtros antes de aplicar la nueva busqueda
             textFiltroNombre.Text = "";
             txtCategoria.Text = "";
             _productoRepository = new ProductoRepository();
