@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace Parcial1_PrograII {
+namespace CapaDatos {
     
     
     /// <summary>
@@ -771,7 +771,7 @@ namespace Parcial1_PrograII {
         }
     }
 }
-namespace Parcial1_PrograII.Parcial1_PrograIIDataSetTableAdapters {
+namespace CapaDatos.Parcial1_PrograIIDataSetTableAdapters {
     
     
     /// <summary>
@@ -905,7 +905,7 @@ namespace Parcial1_PrograII.Parcial1_PrograIIDataSetTableAdapters {
             this._adapter.TableMappings.Add(tableMapping);
             this._adapter.DeleteCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.DeleteCommand.Connection = this.Connection;
-            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [Productos] WHERE (([IdProducto] = @Original_IdProducto) AND ([Nombre] = @Original_Nombre) AND ((@IsNull_Descripcion = 1 AND [Descripcion] IS NULL) OR ([Descripcion] = @Original_Descripcion)) AND ([Precio] = @Original_Precio) AND ([Cantidad] = @Original_Cantidad) AND ([Categoria] = @Original_Categoria) AND ([Fabricante] = @Original_Fabricante))";
+            this._adapter.DeleteCommand.CommandText = @"DELETE FROM [dbo].[Productos] WHERE (([IdProducto] = @Original_IdProducto) AND ([Nombre] = @Original_Nombre) AND ((@IsNull_Descripcion = 1 AND [Descripcion] IS NULL) OR ([Descripcion] = @Original_Descripcion)) AND ([Precio] = @Original_Precio) AND ([Cantidad] = @Original_Cantidad) AND ([Categoria] = @Original_Categoria) AND ([Fabricante] = @Original_Fabricante))";
             this._adapter.DeleteCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_IdProducto", global::System.Data.SqlDbType.Int, 0, global::System.Data.ParameterDirection.Input, 0, 0, "IdProducto", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Nombre", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Nombre", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
@@ -917,7 +917,7 @@ namespace Parcial1_PrograII.Parcial1_PrograIIDataSetTableAdapters {
             this._adapter.DeleteCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Original_Fabricante", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Fabricante", global::System.Data.DataRowVersion.Original, false, null, "", "", ""));
             this._adapter.InsertCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.InsertCommand.Connection = this.Connection;
-            this._adapter.InsertCommand.CommandText = @"INSERT INTO [Productos] ([Nombre], [Descripcion], [Precio], [Cantidad], [Categoria], [Fabricante]) VALUES (@Nombre, @Descripcion, @Precio, @Cantidad, @Categoria, @Fabricante);
+            this._adapter.InsertCommand.CommandText = @"INSERT INTO [dbo].[Productos] ([Nombre], [Descripcion], [Precio], [Cantidad], [Categoria], [Fabricante]) VALUES (@Nombre, @Descripcion, @Precio, @Cantidad, @Categoria, @Fabricante);
 SELECT IdProducto, Nombre, Descripcion, Precio, Cantidad, Categoria, Fabricante FROM Productos WHERE (IdProducto = SCOPE_IDENTITY())";
             this._adapter.InsertCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Nombre", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Nombre", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -928,7 +928,7 @@ SELECT IdProducto, Nombre, Descripcion, Precio, Cantidad, Categoria, Fabricante 
             this._adapter.InsertCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Fabricante", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Fabricante", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
             this._adapter.UpdateCommand = new global::System.Data.SqlClient.SqlCommand();
             this._adapter.UpdateCommand.Connection = this.Connection;
-            this._adapter.UpdateCommand.CommandText = @"UPDATE [Productos] SET [Nombre] = @Nombre, [Descripcion] = @Descripcion, [Precio] = @Precio, [Cantidad] = @Cantidad, [Categoria] = @Categoria, [Fabricante] = @Fabricante WHERE (([IdProducto] = @Original_IdProducto) AND ([Nombre] = @Original_Nombre) AND ((@IsNull_Descripcion = 1 AND [Descripcion] IS NULL) OR ([Descripcion] = @Original_Descripcion)) AND ([Precio] = @Original_Precio) AND ([Cantidad] = @Original_Cantidad) AND ([Categoria] = @Original_Categoria) AND ([Fabricante] = @Original_Fabricante));
+            this._adapter.UpdateCommand.CommandText = @"UPDATE [dbo].[Productos] SET [Nombre] = @Nombre, [Descripcion] = @Descripcion, [Precio] = @Precio, [Cantidad] = @Cantidad, [Categoria] = @Categoria, [Fabricante] = @Fabricante WHERE (([IdProducto] = @Original_IdProducto) AND ([Nombre] = @Original_Nombre) AND ((@IsNull_Descripcion = 1 AND [Descripcion] IS NULL) OR ([Descripcion] = @Original_Descripcion)) AND ([Precio] = @Original_Precio) AND ([Cantidad] = @Original_Cantidad) AND ([Categoria] = @Original_Categoria) AND ([Fabricante] = @Original_Fabricante));
 SELECT IdProducto, Nombre, Descripcion, Precio, Cantidad, Categoria, Fabricante FROM Productos WHERE (IdProducto = @IdProducto)";
             this._adapter.UpdateCommand.CommandType = global::System.Data.CommandType.Text;
             this._adapter.UpdateCommand.Parameters.Add(new global::System.Data.SqlClient.SqlParameter("@Nombre", global::System.Data.SqlDbType.NVarChar, 0, global::System.Data.ParameterDirection.Input, 0, 0, "Nombre", global::System.Data.DataRowVersion.Current, false, null, "", "", ""));
@@ -952,7 +952,7 @@ SELECT IdProducto, Nombre, Descripcion, Precio, Cantidad, Categoria, Fabricante 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "17.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::Parcial1_PrograII.Properties.Settings.Default.Parcial1_PrograIIConnectionString;
+            this._connection.ConnectionString = global::CapaDatos.Properties.Settings.Default.Parcial1_PrograIIConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
@@ -962,7 +962,7 @@ SELECT IdProducto, Nombre, Descripcion, Precio, Cantidad, Categoria, Fabricante 
             this._commandCollection[0] = new global::System.Data.SqlClient.SqlCommand();
             this._commandCollection[0].Connection = this.Connection;
             this._commandCollection[0].CommandText = "SELECT IdProducto, Nombre, Descripcion, Precio, Cantidad, Categoria, Fabricante F" +
-                "ROM Productos";
+                "ROM dbo.Productos";
             this._commandCollection[0].CommandType = global::System.Data.CommandType.Text;
         }
         
