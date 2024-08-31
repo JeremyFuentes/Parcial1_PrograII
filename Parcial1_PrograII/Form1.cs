@@ -42,10 +42,6 @@ namespace Parcial1_PrograII
         {
             // TODO: esta línea de código carga datos en la tabla 'parcial1_PrograIIDataSet.Productos' Puede moverla o quitarla según sea necesario.
             this.productosTableAdapter.Fill(this.parcial1_PrograIIDataSet.Productos);
-            // TODO: esta línea de código carga datos en la tabla 'parcial1_PrograIIDataSet.Productos' Puede moverla o quitarla según sea necesario.
-            this.productosTableAdapter.Fill(this.parcial1_PrograIIDataSet.Productos);
-            // TODO: esta línea de código carga datos en la tabla 'parcial1_PrograIIDataSet.Productos' Puede moverla o quitarla según sea necesario.
-            this.productosTableAdapter.Fill(this.parcial1_PrograIIDataSet.Productos);
 
         }
 
@@ -83,8 +79,7 @@ namespace Parcial1_PrograII
 
             if (productosDataGrid.Columns[e.ColumnIndex].Name == "btnEditar")
             {
-                //Esta linea de abajo creo que no esta haciendo nada pero me da miedo borrarla XD
-                int Id = Convert.ToInt32(productosDataGrid.CurrentRow.Cells["Id"].Value.ToString());
+                int Id = Convert.ToInt32(productosDataGrid.CurrentRow.Cells["IdProducto"].Value.ToString());
 
                 AgregarProducto objRegistroProducto = new AgregarProducto(this, Id);
                 objRegistroProducto.LlenarDataGridViewRequested += Form1_LlenarDataGridViewRequested;
@@ -92,7 +87,7 @@ namespace Parcial1_PrograII
             }
             else if (productosDataGrid.Columns[e.ColumnIndex].Name == "btnEliminar")
             {
-                int Id = Convert.ToInt32(productosDataGrid.CurrentRow.Cells["Id"].Value.ToString());
+                int Id = Convert.ToInt32(productosDataGrid.CurrentRow.Cells["IdProducto"].Value.ToString());
                 _productoRepository = new ProductoRepository();
                 _productoRepository.EliminarProducto(Id);
                 int resultado = _productoRepository.EliminarProducto(Id);

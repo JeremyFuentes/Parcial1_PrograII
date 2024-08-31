@@ -72,7 +72,7 @@ namespace CapaDatos
                 selectForID = selectForID + "      ,[Fabricante] " + "\n";
                 selectForID = selectForID + "      ,[Categoria] " + "\n";
                 selectForID = selectForID + "  FROM [Productos]";
-                selectForID = selectForID + "  Where Id = @id";
+                selectForID = selectForID + "  Where IdProducto = @id";
 
                 using (SqlCommand comando = new SqlCommand(selectForID, conexion))
                 {
@@ -99,7 +99,7 @@ namespace CapaDatos
                 String EliminarProducto = "";
 
                 EliminarProducto = EliminarProducto + "DELETE FROM [dbo].[Productos] " + "\n";
-                EliminarProducto = EliminarProducto + "      WHERE Id = @Id";
+                EliminarProducto = EliminarProducto + "      WHERE IdProducto = @Id";
 
                 using (SqlCommand comando = new SqlCommand(EliminarProducto, conexion))
                 {
@@ -122,10 +122,10 @@ namespace CapaDatos
                 ActualizarProductoPorID = ActualizarProductoPorID + "   SET [Nombre] = @Nombre " + "\n";
                 ActualizarProductoPorID = ActualizarProductoPorID + "      ,[Descripcion] = @Descripcion " + "\n";
                 ActualizarProductoPorID = ActualizarProductoPorID + "      ,[Precio] = @Precio " + "\n";
-                ActualizarProductoPorID = ActualizarProductoPorID + "      ,[Cantidad] = @Stock " + "\n";
-                ActualizarProductoPorID = ActualizarProductoPorID + "      ,[Fabricante] = @Marca " + "\n";
+                ActualizarProductoPorID = ActualizarProductoPorID + "      ,[Cantidad] = @Cantidad " + "\n";
+                ActualizarProductoPorID = ActualizarProductoPorID + "      ,[Fabricante] = @Fabricante " + "\n";
                 ActualizarProductoPorID = ActualizarProductoPorID + "      ,[Categoria] = @Categoria " + "\n";
-                ActualizarProductoPorID = ActualizarProductoPorID + " WHERE Id= @Id";
+                ActualizarProductoPorID = ActualizarProductoPorID + " WHERE IdProducto = @Id";
 
                 using (var comando = new SqlCommand(ActualizarProductoPorID, conexion))
                 {
@@ -137,7 +137,7 @@ namespace CapaDatos
 
         public int parametrosProducto(Productos producto, SqlCommand comando)
         {
-            comando.Parameters.AddWithValue("IdProducto", producto.IdProducto);
+            comando.Parameters.AddWithValue("Id", producto.IdProducto);
             comando.Parameters.AddWithValue("Nombre", producto.Nombre);
             comando.Parameters.AddWithValue("Descripcion", producto.Descripcion);
             comando.Parameters.AddWithValue("Precio", producto.Precio);

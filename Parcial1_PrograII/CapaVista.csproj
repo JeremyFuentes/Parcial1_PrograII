@@ -79,6 +79,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Parcial1_PrograIIDataSet.xsc">
       <DependentUpon>Parcial1_PrograIIDataSet.xsd</DependentUpon>
@@ -117,6 +118,16 @@
       <Project>{594afd8b-810a-49bf-8b11-3f685420f30e}</Project>
       <Name>CapaLogica</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Recourse\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recourse\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Recourse\edit_v2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
